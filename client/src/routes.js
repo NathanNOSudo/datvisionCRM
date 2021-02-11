@@ -27,7 +27,7 @@ class Routes extends Component {
           <Paper>
             <div className="main-cointainer">
               <Route exact path="/login" component={Login} />
-              <PrivateRoute exact path="/" component={Home} />
+              <Route exact path="/" component={Home} />
               <PrivateRoute exact path="/profile" component={Profile} />
               <PrivateRoute exact path="/users/:id" component={UserEdit} roles={["ADMIN"]}/>
               <PrivateRoute exact path="/users" component={UserList} roles={["ADMIN"]}/>
