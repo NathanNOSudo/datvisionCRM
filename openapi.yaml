@@ -1,6 +1,6 @@
 openapi: 3.0.0
 info:
-  x-skaffolder-id-project: 60246901a3e049112323f54d
+  # x-skaffolder-id-project: 
   title: datvisionCRM
   description: You can obtain JWT token from login API
   version: 0.1

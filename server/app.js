@@ -1,3 +1,4 @@
+//**ESLINT**//
 import Logger from "./classes/Logger";
 import Server from "./classes/Server";
 

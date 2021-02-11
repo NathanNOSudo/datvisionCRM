@@ -1,3 +1,4 @@
+//**ESLINT**//
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
 import SecurityService from "./SecurityService";
@@ -10,7 +11,7 @@ export const PrivateRoute = ({ component: Component, ...rest }) => (
         <Component {...props} />
       ) : (
         <Redirect
-          to={{ pathname: "/login", state: { from: props.location } }}
+          to={{ pathname: "/home", state: { from: props.location } }}
         />
       )
     }
